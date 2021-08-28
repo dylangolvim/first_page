@@ -1,12 +1,21 @@
 body{
-    background: #CCCCCC;
+
 }
 
 #banner {
     width: 100%;
 }
 
-h1{
+.principal{ /*classe divisora principal */
+    background: #CCCCCC;
+    padding: 30px; /* espaçamento interno ao redor de toda a div */
+}
+
+.titulo-principal{
+    padding-left: 20px;
+}
+
+.titulo-centralizado{ /* classe para alinhar o titulos no centro */
     text-align: center;
 }
 
@@ -20,4 +29,24 @@ p{
 
 em strong{
     color: #FF0000;
+}
+
+.beneficios{ /* classe da divisão beneficios */
+    background: #FFFFFF;
+    padding: 20px;
+}
+
+.itens {
+    font-style: italic;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagembeneficios{
+    width: 50%;
 }
