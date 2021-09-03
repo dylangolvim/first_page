@@ -1,0 +1,92 @@
+body{
+
+}
+
+header{
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute; /*  o objeto vai começar de onde eu mandar */
+    top: 110px;
+    right: 0;
+}
+
+.lista-cabeçalho{
+    display: inline; /* deixar as listas uma do lado da outra */
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase; /* transforma o texto em maiusculo */
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none; /* tirar o sublinhado do link */
+}
+
+
+
+#banner { /* id da imagem banner */
+    width: 100%;
+}
+
+/* Primeira divisão ---------------------------------------------------*/
+
+.principal{ /*classe divisora principal */
+    background: #CCCCCC;
+    padding: 30px; /* espaçamento interno ao redor de toda a div */
+}
+
+.titulo-principal{
+    padding-left: 20px; /* espaçamento interno do titulo pra 20px */
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.titulo-centralizado{ /* classe para alinhar o titulos no centro */
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+#missao {
+    font-size: 20px;
+}
+
+em strong{
+    color: #FF0000;
+}
+
+/* Segunda divisão ------------------------------------------------------- */
+
+.beneficios{ /* classe da divisão beneficios */
+    background: #FFFFFF;
+    padding: 20px;
+}
+
+.itens { /* classe onde se aplica os itens da lista */
+    font-style: italic;
+}
+
+ul{ /* funções onde modificamos a lista */
+    display: inline-block; /*colocando a lista no seu proprio tamanho e linha */
+    vertical-align: top; /* alinhando fazendo que qualque coisa que esteja ao seu lado
+     esteja alinhado começando de cima */
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagembeneficios{
+    width: 50%;
+}
